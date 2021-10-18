@@ -1,7 +1,7 @@
 
 import React from "react";
-
-const ItemList = ({
+ 
+const ListGroup = ({
   selectedItem,
   items,
   onItemSelect,
@@ -25,9 +25,9 @@ const ItemList = ({
   );
 };
 
-ItemList.defaultProps = {
+ListGroup.defaultProps = {
   textProperty: "name",
   valueProperty: "_id"
 };
 
-export default ItemList;
+export default ListGroup;
